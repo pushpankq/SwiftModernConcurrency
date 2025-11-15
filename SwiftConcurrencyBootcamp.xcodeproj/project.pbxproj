@@ -23,10 +23,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0CB3B5D42EC8D16A004001A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0C9316532EB3F40F004BBA37 /* SwiftConcurrencyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrencyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9316602EB3F411004BBA37 /* SwiftConcurrencyBootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftConcurrencyBootcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C93166A2EB3F411004BBA37 /* SwiftConcurrencyBootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftConcurrencyBootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB3B5D62EC8D16A004001A1 /* MainActorVSMainThread */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MainActorVSMainThread; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +56,11 @@
 		0C93166D2EB3F411004BBA37 /* SwiftConcurrencyBootcampUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftConcurrencyBootcampUITests;
+			sourceTree = "<group>";
+		};
+		0CB3B5D72EC8D16B004001A1 /* MainActorVSMainThread */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MainActorVSMainThread;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +87,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0CB3B5D32EC8D16A004001A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +103,7 @@
 				0C9316552EB3F40F004BBA37 /* SwiftConcurrencyBootcamp */,
 				0C9316632EB3F411004BBA37 /* SwiftConcurrencyBootcampTests */,
 				0C93166D2EB3F411004BBA37 /* SwiftConcurrencyBootcampUITests */,
+				0CB3B5D72EC8D16B004001A1 /* MainActorVSMainThread */,
 				0C9316542EB3F40F004BBA37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +114,7 @@
 				0C9316532EB3F40F004BBA37 /* SwiftConcurrencyBootcamp.app */,
 				0C9316602EB3F411004BBA37 /* SwiftConcurrencyBootcampTests.xctest */,
 				0C93166A2EB3F411004BBA37 /* SwiftConcurrencyBootcampUITests.xctest */,
+				0CB3B5D62EC8D16A004001A1 /* MainActorVSMainThread */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +190,28 @@
 			productReference = 0C93166A2EB3F411004BBA37 /* SwiftConcurrencyBootcampUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0CB3B5D52EC8D16A004001A1 /* MainActorVSMainThread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CB3B5DA2EC8D16B004001A1 /* Build configuration list for PBXNativeTarget "MainActorVSMainThread" */;
+			buildPhases = (
+				0CB3B5D22EC8D16A004001A1 /* Sources */,
+				0CB3B5D32EC8D16A004001A1 /* Frameworks */,
+				0CB3B5D42EC8D16A004001A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0CB3B5D72EC8D16B004001A1 /* MainActorVSMainThread */,
+			);
+			name = MainActorVSMainThread;
+			packageProductDependencies = (
+			);
+			productName = MainActorVSMainThread;
+			productReference = 0CB3B5D62EC8D16A004001A1 /* MainActorVSMainThread */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +233,9 @@
 						CreatedOnToolsVersion = 26.0;
 						TestTargetID = 0C9316522EB3F40F004BBA37;
 					};
+					0CB3B5D52EC8D16A004001A1 = {
+						CreatedOnToolsVersion = 26.0;
+					};
 				};
 			};
 			buildConfigurationList = 0C93164E2EB3F40F004BBA37 /* Build configuration list for PBXProject "SwiftConcurrencyBootcamp" */;
@@ -203,6 +255,7 @@
 				0C9316522EB3F40F004BBA37 /* SwiftConcurrencyBootcamp */,
 				0C93165F2EB3F411004BBA37 /* SwiftConcurrencyBootcampTests */,
 				0C9316692EB3F411004BBA37 /* SwiftConcurrencyBootcampUITests */,
+				0CB3B5D52EC8D16A004001A1 /* MainActorVSMainThread */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +300,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C9316662EB3F411004BBA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB3B5D22EC8D16A004001A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -530,6 +590,32 @@
 			};
 			name = Release;
 		};
+		0CB3B5DB2EC8D16B004001A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0CB3B5DC2EC8D16B004001A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,6 +651,15 @@
 			buildConfigurations = (
 				0C93167B2EB3F411004BBA37 /* Debug */,
 				0C93167C2EB3F411004BBA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CB3B5DA2EC8D16B004001A1 /* Build configuration list for PBXNativeTarget "MainActorVSMainThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB3B5DB2EC8D16B004001A1 /* Debug */,
+				0CB3B5DC2EC8D16B004001A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
